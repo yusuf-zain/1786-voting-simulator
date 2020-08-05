@@ -1,5 +1,5 @@
 # 1786-voting-simulator
-Just a fun little voting simulator I made while teaching myself python
+This quiz determines whether you would be able to vote in the 1786 United States election
 
 ### Steps to take the quiz:
 1. Copy the code from the [.py file](https://github.com/yusuf-zain/1786-voting-simulator/blob/master/1786-voting-simulator.py)
