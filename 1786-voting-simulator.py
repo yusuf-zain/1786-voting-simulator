@@ -7,18 +7,27 @@ Please answer in a yes/no format (besides age).
 """)
 closing = """Thank you for playing!"""
 landowner = (input("Do you own any land? ").lower())
+if landowner is not {"no", "yes"}:
+    print("please answer with yes or no")
+landowner = (input("Do you own any land? ").lower())
 if landowner == "no":
-    print("""   You can't vote""")
+    print("""   Sorry you would not be able to vote""")
     print(closing)
     sys.exit()
-Ethnicity = (input("Are you Caucasion? ").lower())
+Ethnicity = (input("Are you Caucasian? ").lower())
+if Ethnicity is not {"no", "yes"}:
+    print("please answer with yes or no")
+Ethnicity = (input("Are you Caucasian? ").lower())
 if Ethnicity == "no":
-    print(" You can't vote")
+    print(" Sorry you would not be able to vote")
     print(closing)
     sys.exit()
 gender = (input("Are you female? ").lower())
+if gender is not {"no", "yes"}:
+    print("please answer with yes or no")
+gender = (input("Are you female? ").lower())
 if gender == "yes":
-    print(" You can't vote")
+    print(" Sorry you would not be able to vote")
     print(closing)
     sys.exit()
 age = (int(input("How old are you? ")))
