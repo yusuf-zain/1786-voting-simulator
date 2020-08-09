@@ -32,7 +32,7 @@ if gender == "yes":
     sys.exit()
 age = (int(input("How old are you? ")))
 if age < 21:
-    print(" You can't vote")
+    print(" Sorry you would not be able to vote")
     print(closing)
     sys.exit()
 if age >= 21:
