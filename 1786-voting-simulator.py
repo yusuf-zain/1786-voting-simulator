@@ -11,8 +11,8 @@ if landowner == "no":
     print("""   You can't vote""")
     print(closing)
     sys.exit()
-Skin = (input("Are you African American? ").lower())
-if Skin == "yes":
+Ethnicity = (input("Are you Caucasion? ").lower())
+if Ethnicity == "no":
     print(" You can't vote")
     print(closing)
     sys.exit()
