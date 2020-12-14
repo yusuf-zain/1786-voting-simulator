@@ -9,7 +9,7 @@ closing = """Thank you for playing!"""
 landowner = (input("Do you own any land? ").lower())
 if landowner is not {"no", "yes"}:
     print("please answer with yes or no")
-landowner = (input("Do you own any land? ").lower())
+    landowner = (input("Do you own any land? ").lower())
 if landowner == "no":
     print("""   Sorry you would not be able to vote""")
     print(closing)
@@ -17,7 +17,7 @@ if landowner == "no":
 Ethnicity = (input("Are you Caucasian? ").lower())
 if Ethnicity is not {"no", "yes"}:
     print("please answer with yes or no")
-Ethnicity = (input("Are you Caucasian? ").lower())
+    Ethnicity = (input("Are you Caucasian? ").lower())
 if Ethnicity == "no":
     print(" Sorry you would not be able to vote")
     print(closing)
@@ -25,7 +25,7 @@ if Ethnicity == "no":
 gender = (input("Are you female? ").lower())
 if gender is not {"no", "yes"}:
     print("please answer with yes or no")
-gender = (input("Are you female? ").lower())
+    gender = (input("Are you female? ").lower())
 if gender == "yes":
     print(" Sorry you would not be able to vote")
     print(closing)
